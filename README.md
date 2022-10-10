@@ -1,15 +1,19 @@
-# [Rainforest Connecton Species Audio Detection Challenge](https://www.kaggle.com/competitions/rfcx-species-audio-detection/data) was a machine learning Kaggle competition to detect species from their audio recordings. 
+# [Rainforest Connecton Species Audio Detection Challenge](https://www.kaggle.com/competitions/rfcx-species-audio-detection/data)
+
+- This was a machine learning competition to automate the detection species from their audio recordings. It was hosted on Kaggle. 
+- A version of the notebook presented here was used to participate in the competition, and it ranked Top 6% ([64/1143](https://www.kaggle.com/sangayb))
+
 
 # Aim
 
 Given audio files that include sounds from numerous species, the objective is to use machine learning to predict species in the audio clip. 
 
-# Data Description
+# Data Description - Link to data is [here](https://www.kaggle.com/competitions/rfcx-species-audio-detection/data)
 Each audio recording is 5 mins long. There are total of 3958 audio recording files availabe for training. 
 Each single recorded audio contains signals from multiple species which are labelled by time-stamps `t_min` and `t_max`, where `t_min` indicates the start time the a particular species was heard and  `t_max` the time until the species was heard. Also provided are frequency range(`f_min`, `f_max`) of that particular siganl. 
 
 
-Training data also includes false positive label occurrences to assist with training.
+Training data also includes false positive label occurrences to assist with training. 
 
 Files: 
 
